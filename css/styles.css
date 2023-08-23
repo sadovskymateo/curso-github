@@ -1,0 +1,25 @@
+#titulo {
+    background-color: aquamarine;
+
+    position: sticky;
+    top: 0%;
+}
+
+.Servicios {
+    background-color: aquamarine;
+}
+
+.redes {
+    background-color: aquamarine;
+}
+
+#titulo {
+    text-align: center ;
+}
+
+.bienvenidos {
+    background-color: aqua;
+
+margin-top: 50px;
+
+}
