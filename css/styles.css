@@ -1,25 +1,326 @@
 #titulo {
-    background-color: aquamarine;
-
+    background-color: #2d5396;
     position: sticky;
     top: 0%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .Servicios {
-    background-color: aquamarine;
+    background-color: #2d5396;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-.redes {
-    background-color: aquamarine;
+.copyright{
+    background-color: #2d5396;
+    text-align: center;
 }
 
 #titulo {
-    text-align: center ;
+    text-align: center;
 }
 
 .bienvenidos {
-    background-color: aqua;
+    background-color: #2d5396;
+    font-family: 'Roboto', sans-serif;
 
 margin-top: 50px;
+}
+
+/*texto y imagene caja1 index*/
+
+.caja1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto ;
+    justify-items: center;
+    align-items: start;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav1 ul{
+    list-style: none;
+}
+.nav1 ul li a{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.img2{
+    display: grid;
+    justify-content: center;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+/* mq de cel */
+
+@media screen and (max-width:600px){
+    .caja1{
+        width: 80%;
+        display: inline;
+    }
+
+    .bienvenidos{
+        text-align: center;
+    }
+}
+
+/* grids */
+
+.nav2 ul{
+    display: grid;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    grid-template-columns: repeat(4, 180px);
+    grid-template-rows: repeat(1, 200px);
+    justify-content: center;
+    gap: 80px;
+    
+}
+
+.techo1 {
+    background-color: #2d9632;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.seco1{
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
 
 }
+
+.civil1{
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.deco1{
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.nav2 ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Techos*/
+
+.secimgstecho .divimgstecho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.divimgstecho img{ 
+    height: 300px;
+    width: 500px;
+}
+
+.techos{
+    background-color: #2d5396;
+    position: sticky;
+    top: 0%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.navtecho ul li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.navtecho ul li{
+    text-align: center;
+    list-style: none;
+}
+
+.resumentecho{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*En Seco*/
+
+.secimgsseco .divimgsseco{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.divimgsseco img{ 
+    height: 300px;
+    width: 500px;
+}
+
+.consseco{
+    background-color: #2d5396;
+    position: sticky;
+    top: 0%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.navseco ul li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.navseco ul li{
+    text-align: center;
+    list-style: none;
+}
+
+.resumenseco{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*Obras Civiles*/
+
+.secimgscivil .divimgscivil{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.divimgscivil img{ 
+    height: 300px;
+    width: 500px;
+}
+
+.tcivil{
+    background-color: #2d5396;
+    position: sticky;
+    top: 0%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.navcivil ul li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.navcivil ul li{
+    text-align: center;
+    list-style: none;
+}
+
+.resumencivil{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*Decoraciones*/
+
+.secimgsdeco .divimgsdeco{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.divimgsdeco img{ 
+    height: 300px;
+    width: 500px;
+}
+
+.tdeco{
+    background-color: #2d5396;
+    position: sticky;
+    top: 0%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.navdeco ul li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.navdeco ul li{
+    text-align: center;
+    list-style: none;
+}
+
+.resumendeco{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*contacto*/
+
+.artcon{
+    background-color: #2d9632;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.divimg28 img{
+    height: 600px;
+}
+
+.formulario {
+    font-family: 'Roboto', sans-serif;
+}
+
+.datocontac{
+    font-family: 'Roboto', sans-serif;
+}
+
+.divimg4{
+    display: grid;
+    justify-content: center;
+}
+
+.mapa{
+    display: grid;
+    justify-content: center;
+}
+
+.Contacto{
+    background-color: #2d5396;
+    position: sticky;
+    top: 0%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.navcontacto ul li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.navcontacto ul li{
+    text-align: center;
+    list-style: none;
+}
+
+@media screen and (max-width:600px){
+    .artcon{
+        width: 80%;
+        display: inline;
+    }
+}
+
